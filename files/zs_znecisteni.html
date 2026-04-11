@@ -1,99 +1,177 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Metodika ZŠ</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-	</head>
-	<body class="single is-preload">
+    <head>
+        <title>Metodika ZŠ</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+    </head>
+    <body class="single is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="../index.html">Digichemie</a></h1>
+                <nav class="links">
+                    <ul>
+                        <li><a href="oprojektu.html">O projektu</a></li>
+                        <li><a href="moduly.html">Výukové moduly</a></li>
+                        <li><a href="aplikace.html">Zdroje a nástroje</a></li>
+                    </ul>
+                </nav>
+                <nav class="main">
+                    <ul>
+                        <li class="search">
+                            <a class="fa-search" href="#search">Hledat</a>
+                            <form id="search" method="get" action="#">
+                                <input
+                                    type="text"
+                                    name="query"
+                                    placeholder="Search"
+                                />
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <!-- Menu -->
+            <section id="menu">
+                <!-- Search -->
+                <section>
+                    <form class="search" method="get" action="#">
+                        <input type="text" name="query" placeholder="Search" />
+                    </form>
+                </section>
+            </section>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="../index.html">Digichemie</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="oprojektu.html">O projektu</a></li>
-								<li><a href="moduly.html">Výukové moduly</a></li>
-								<li><a href="aplikace.html">Zdroje a nástroje</a></li>
-							</ul>
-						</nav>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Hledat</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
-							</ul>
-						</nav>
-					</header>
+            <article class="post">
+                <header>
+                    <div class="title">
+                        <h2><a href="#">Analytici v akci - ovzduší</a></h2>
+                        <p>Člověk a příroda, digitální kompetence v praxi</p>
+                    </div>
+                    <div class="meta">
+                        <time class="published" datetime="2026-02-01"
+                            >Únor 2026</time
+                        >
+                        <a href="#" class="author"
+                            ><span class="name">Ondřej Marhold</span
+                            ><img src="../images/profile.png" alt="Autor"
+                        /></a>
+                    </div>
+                </header>
 
-				<!-- Menu -->
-					<section id="menu">
+                <span class="image featured"
+                    ><img
+                        src="../images/zs_znecisteni.png"
+                        alt="coda"
+                        style="
+                            height: 350px;
+                            object-fit: contain;
+                            object-position: center;
+                        "
+                /></span>
 
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
-					</section>
+                <p>
+                    Když se zeptáte, kdo znečišťuje ovzduší nejvíce, většina
+                    lidí automaticky ukáže na průmysl a dopravu. Tento
+                    45minutový výukový modul pro 9. ročníky ZŠ učí žáky pracovat
+                    s reálnými daty o emisích v ČR. Cílem je, aby se žáci
+                    nenechali manipulovat mediálními zkratkami a uměli činit
+                    informovaná rozhodnutí.
+                </p>
 
-				<article class="post">
-				    <header>
-				        <div class="title">
-				            <h2><a href="#">Analytici v akci - ovzduší</a></h2>
-				            <p>Člověk a příroda, digitální kompetence v praxi</p>
-				        </div>
-				        <div class="meta">
-				            <time class="published" datetime="2026-02-01">Únor 2026</time>
-				            <a href="#" class="author"><span class="name">Ondřej Marhold</span><img src="../images/profile.png" alt="Autor" /></a>
-				        </div>
-				    </header>
+                <h3>Cíle a vazba na RVP ZV</h3>
+                <p>
+                    Aktivita přímo naplňuje výstupy pro chemii i novou
+                    informatiku. Žáci analyzují a interpretují dostupná data o
+                    složení ovzduší (CAP-CHE-002-ZV9-006). V rámci rozvoje
+                    digitálních kompetencí získávají informace z interaktivních
+                    modelů (INF-INF-001-ZV9-001) a využívají technologie ke
+                    zkvalitnění své práce (KDI-VIN-000-ZV9-001). Z hlediska
+                    kognitivní náročnosti žáci aplikují data při řešení
+                    případových studií a kriticky hodnotí své vlastní původní
+                    odhady.
+                </p>
 
-						<span class="image featured"><img src="../images/zs_znecisteni.png" alt="coda" style="height: 350px; object-fit: contain; object-position: center;" /></span>
+                <h3>Použité nástroje: Flourish a Coda</h3>
+                <p>
+                    Pro vizualizaci složitých dat (např. hierarchických struktur
+                    neboli treemaps) modul využívá aplikaci
+                    <strong>Flourish Studio</strong>, která dokáže tvořit vysoce
+                    interaktivní a vizuálně atraktivní grafy. Tyto grafy jsou
+                    následně "přišpendleny" (embedovány) do cloudového dokumentu
+                    v platformě <strong>Coda</strong>. Výsledkem je jednotné
+                    online prostředí, do kterého žáci vstupují pouze pomocí QR
+                    kódu bez nutnosti jakéhokoliv přihlašování.
+                </p>
 
-						<p>Když se zeptáte, kdo znečišťuje ovzduší nejvíce, většina lidí automaticky ukáže na průmysl a dopravu. Tento 45minutový výukový modul pro 9. ročníky ZŠ učí žáky pracovat s reálnými daty o emisích v ČR. Cílem je, aby se žáci nenechali manipulovat mediálními zkratkami a uměli činit informovaná rozhodnutí.</p>
+                <h3>Jak to funguje ve výuce (E-U-R)</h3>
+                <ul>
+                    <li>
+                        <strong>Evokace (5 min):</strong> Učitel vyzve žáky k
+                        hlasování (např. pomocí lepicích papírků nebo aplikace
+                        Slido, nebo klasicky psaním na tabuli):
+                        <em
+                            >Kdo vypouští do vzduchu nejvíce jedovatého prachu –
+                            průmysl, doprava, nebo domácnosti?</em
+                        >
+                        Výsledek hlasování zůstává viset na tabuli pro
+                        závěrečnou reflexi.
+                    </li>
+                    <li>
+                        <strong>Uvědomění (30 min):</strong> Žáci samostatně
+                        pracují s interaktivním dokumentem. Vžívají se do rolí
+                        starostů či ministrů a řeší konkrétní problémy.
+                    </li>
+                    <li>
+                        <strong>Reflexe (10 min):</strong> Dochází ke
+                        konfrontaci počátečního hlasování s reálnými daty z
+                        grafů. Hodina je zakončena metodou "Exit-ticket", kde
+                        žáci reflektují, co je při práci s daty nejvíce
+                        překvapilo.
+                    </li>
+                </ul>
 
-    					<h3>Cíle a vazba na RVP ZV</h3>
-    					<p>Aktivita přímo naplňuje výstupy pro chemii i novou informatiku. Žáci analyzují a interpretují dostupná data o složení ovzduší (CAP-CHE-002-ZV9-006). V rámci rozvoje digitálních kompetencí získávají informace z interaktivních modelů (INF-INF-001-ZV9-001) a využívají technologie ke zkvalitnění své práce (KDI-VIN-000-ZV9-001). Z hlediska kognitivní náročnosti žáci aplikují data při řešení případových studií a kriticky hodnotí své vlastní původní odhady.</p>
+                <hr />
 
-    					<h3>Použité nástroje: Flourish a Coda</h3>
-    					<p>Pro vizualizaci složitých dat (např. hierarchických struktur neboli treemaps) modul využívá aplikaci <strong>Flourish Studio</strong>, která dokáže tvořit vysoce interaktivní a vizuálně atraktivní grafy. Tyto grafy jsou následně "přišpendleny" (embedovány) do cloudového dokumentu v platformě <strong>Coda</strong>. Výsledkem je jednotné online prostředí, do kterého žáci vstupují pouze pomocí QR kódu bez nutnosti jakéhokoliv přihlašování.</p>
+                <h3>Materiály ke stažení a odkazy</h3>
+                <p>
+                    Zde naleznete kompletní metodické listy, žákovské pracovní
+                    listy a odkazy na připravené interaktivní plochy.
+                </p>
 
-    					<h3>Jak to funguje ve výuce (E-U-R)</h3>
-    					<ul>
-    					    <li><strong>Evokace (5 min):</strong> Učitel vyzve žáky k hlasování (např. pomocí lepicích papírků nebo aplikace Slido, nebo klasicky psaním na tabuli): <em>Kdo vypouští do vzduchu nejvíce jedovatého prachu – průmysl, doprava, nebo domácnosti?</em> Výsledek hlasování zůstává viset na tabuli pro závěrečnou reflexi.</li>
-    					    <li><strong>Uvědomění (30 min):</strong> Žáci samostatně pracují s interaktivním dokumentem. Vžívají se do rolí starostů či ministrů a řeší konkrétní problémy.</li>
-    					    <li><strong>Reflexe (10 min):</strong> Dochází ke konfrontaci počátečního hlasování s reálnými daty z grafů. Hodina je zakončena metodou "Exit-ticket", kde žáci reflektují, co je při práci s daty nejvíce překvapilo.</li>
-    					</ul>
-					
-    					<hr />
-				
-				    	<h3>Materiály ke stažení a odkazy</h3>
-				    	<p>Zde naleznete kompletní metodické listy, žákovské pracovní listy a odkazy na připravené interaktivní plochy.</p>
-				
-				    <ul class="actions">
-				        <li><a href="../assets/materials/zs_znecisteni_w.pdf" target="_blank" class="button primary icon solid fa-download">Stáhnout metodiku (PDF)</a></li>
-				        <li><a href="https://coda.io/@marhold78/analytici-ovzdusi" target="_blank" class="button icon solid fa-external-link-alt">Pracovní grafy</a></li>
-				    </ul>
+                <ul class="actions">
+                    <li>
+                        <a
+                            href="../assets/materials/zs_znecisteni_w.pdf"
+                            target="_blank"
+                            class="button primary icon solid fa-download"
+                            >Stáhnout metodiku (PDF)</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://coda.io/@marhold78/analytici-ovzdusi"
+                            target="_blank"
+                            class="button icon solid fa-external-link-alt"
+                            >Pracovní grafy</a
+                        >
+                    </li>
+                </ul>
+            </article>
+        </div>
 
-				</article>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
-
-	</body>
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+    </body>
 </html>
